@@ -47,7 +47,7 @@ main {
 
 /* SCORE BOARD */
 
-.scoreBoard {
+#scoreBoard {
     border: 0.2rem solid #2C6CBF;
     border-radius: 1.5rem;
     width: 25vw;
@@ -87,7 +87,7 @@ main {
 
 /* RESULT */
 
-.result {
+#result {
     font-size: 2.5rem;
     margin-bottom: 3rem;
 }
