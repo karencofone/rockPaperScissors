@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ededf1;
+    color: #2C6CBF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a h1 {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #2C6CBF;
+}
+
+header a h1:hover {
+    transition: 0.5s;
+    color: #88C9F2;
+    transform: translateY(-0.5rem)
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SCORE BOARD */
+
+.scoreBoard {
+    border: 0.2rem solid #2C6CBF;
+    border-radius: 1.5rem;
+    width: 25vw;
+    height: 15vh;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.score {
+    background-color: #88C9F2;
+    color: #2C6CBF;
+    border-radius: 1.1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+#userLabel {
+    position: absolute;
+    top: 2rem;
+    left: -2.5rem;
+}
+
+#pcLabel {
+    position: absolute;
+    top: 2rem;
+    right: -2.5rem;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+}
+
+/* RESULT */
+
+.result {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+/* OPTIONS */
+ 
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.option i {
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.option i:hover {
+    background-color: #2C6CBF;
+    color: #ededf1;
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+#paper {
+    margin: 0 3rem;
+}
+
+.move {
+    font-size: 2rem;
+}
