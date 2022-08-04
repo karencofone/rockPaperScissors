@@ -124,3 +124,51 @@ main {
 .move {
     font-size: 2rem;
 }
+
+/* ! RESPONSIVE MOBILE */
+
+@media (max-width: 426px ) {
+    
+    /* * HEADER */
+    header a h1 {
+        font-size: 2rem;
+    }
+
+    /* * SCOREBOARD */
+    #scoreBoard {
+        width: 60vw;
+        font-size: 2.5rem;
+    }
+
+    #result {
+        font-size: 1.75rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    /* * OPTIONS */
+    .options {
+        font-size: 2.5rem;
+    }
+
+    .move {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* ! RESPONSIVE TABLET */
+
+@media (max-width: 769px ) {
+    
+    /* * HEADER */
+    header a h1 {
+        font-size: 3rem;
+    }
+
+    /* * SCOREBOARD */
+    #scoreBoard {
+        width: 35vw;
+        font-size: 2.75rem;
+    }
+}
